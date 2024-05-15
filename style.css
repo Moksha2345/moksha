@@ -1,0 +1,23 @@
+*{
+    background-color:palegoldenrod;
+    background-image:;
+
+}
+body{
+    text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-style: initial;
+    color: aquamarine;
+    display: flexbox;
+    justify-content: center;
+
+}
+h1{
+   background-color:blue; 
+}
+
+
