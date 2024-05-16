@@ -1,11 +1,14 @@
-function validateage(){
-    var name = document.getElementById("name");
-    var age =  document.getElementById("age").value;
-    var result=document.querySelector("p";)
+document.getElementById('contact-form')
+addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=document.getElementById('name').value;
+    var email=document.getElementById('email').value;
+    var message=document.getElementById('message').value;
+    var subject="New message from" +name;
+    var body="Name:"+name+"\nEmail:"+email+"\nMessage:"+message;
+    var mailto_link='mailto:nagashree.kanavalli@gmail.com'+'?subject='+subject+'&body='+encodeURIComponent(body);
+    window.location.href=mailto_link;
 
-    if(age>=18){
-        result.innerHTML="you are eligible to vote";
-}else{
-        result.innerHTML="you are still child😂";
-}
-}
+
+
+})

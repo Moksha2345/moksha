@@ -1,23 +1,15 @@
-*{
-    background-color:palegoldenrod;
-    background-image:;
-
-}
 body{
     text-align: center;
-}
-body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-variant: small-caps;
-    font-style: initial;
-    color: aquamarine;
-    display: flexbox;
-    justify-content: center;
+    background-color: palevioletred;
 
 }
 h1{
-   background-color:blue; 
+    color:beige;
+    text-align: center;
+    background-color: orange;
+
 }
-
-
+div{
+    border: 10px;
+    border-color: solid black;
+}
